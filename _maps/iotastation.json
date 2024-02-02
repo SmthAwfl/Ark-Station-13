@@ -1,0 +1,47 @@
+{
+	"version": 1,
+	"map_name": "Iota Station",
+	"map_path": "ark_map_files/awful_maps",
+	"map_file": "iotastation.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"minetype": "none",
+	"shuttles": {
+		"cargo": "cargo_nova",
+		"ferry": "ferry_nova",
+		"whiteship": "whiteship_blueshift",
+		"emergency": "emergency_nova"
+	},
+	"traits": [
+		{
+			"Up": true,
+			"Mining": true,
+			"Linkage": null,
+			"Lava Ruins": true,
+			"Gravity": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/misc/asteroid/basalt/iota_surface"
+		},
+		{
+			"Up": true,
+			"Down": true,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Lava Ruins": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/openspace"
+		},
+		{
+			"Down": true,
+			"Mining": true,
+			"Linkage": null,
+			"Lava Ruins": true,
+			"Gravity": true,
+			"No Parallax": true,
+			"Bombcap Multiplier": 2,
+			"Weather_Ashstorm": 1,
+			"Baseturf": "/turf/open/misc/asteroid/basalt/iota_surface"
+		}
+	]
+}
